@@ -1,0 +1,4 @@
+# This project uses only the Python standard library.
+# No external packages are needed to run the tool or the tests.
+#
+# Required: Python 3.8 or newer (tested with Python 3.10 and 3.11).

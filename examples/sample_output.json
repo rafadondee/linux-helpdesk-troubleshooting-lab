@@ -1,0 +1,37 @@
+{
+  "tool": {
+    "name": "linux-diagnostics",
+    "version": "0.1.0",
+    "module": "system_info"
+  },
+  "collected_at": "2026-01-15T14:30:00+00:00",
+  "os": {
+    "distribution": "Ubuntu",
+    "version": "25.04 (Plucky Puffin)",
+    "pretty_name": "Ubuntu 25.04",
+    "kernel": "6.14.0-15-generic",
+    "hostname": "helpdesk-lab-vm"
+  },
+  "cpu": {
+    "model": "Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz",
+    "logical_cores": 4
+  },
+  "memory": {
+    "total_bytes": 4108910592,
+    "available_bytes": 2717908992,
+    "used_bytes": 1391001600,
+    "usage_percent": 33.9,
+    "available_is_estimate": false
+  },
+  "disk": {
+    "path": "/",
+    "total_bytes": 26834087936,
+    "free_bytes": 14118739968,
+    "used_bytes": 11328356352,
+    "usage_percent": 44.5
+  },
+  "uptime": {
+    "seconds": 11722.35
+  },
+  "warnings": []
+}

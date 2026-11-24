@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linux-helpdesk-diagnostics"
+version = "0.1.0"
+description = "Read-only Linux diagnostic toolkit for Help Desk and IT support"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Environment :: Console",
+    "Topic :: System :: Systems Administration",
+]
+
+[project.scripts]
+# After "pip install .", the command "linux-diagnostics" is available.
+linux-diagnostics = "linux_diagnostics.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
