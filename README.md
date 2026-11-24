@@ -135,7 +135,7 @@ python3 --version
 ### Option A — run without installing (recommended for learning)
 
 ```bash
-git clone https://github.com/<your-username>/linux-helpdesk-troubleshooting-lab.git
+git clone https://github.com/rafadondee/linux-helpdesk-troubleshooting-lab.git
 cd linux-helpdesk-troubleshooting-lab
 PYTHONPATH=src python3 -m linux_diagnostics
 ```
