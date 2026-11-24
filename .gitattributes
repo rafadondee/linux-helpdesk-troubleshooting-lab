@@ -1,0 +1,3 @@
+# Always use Linux line endings (LF) in the repository.
+# Bash scripts with Windows line endings (CRLF) fail on Linux.
+* text=auto eol=lf
